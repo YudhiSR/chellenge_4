@@ -1,0 +1,34 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  border-color: #fff;
+  background: #5CB85F;
+  padding: 5px 17px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(198, 198, 198);
+}
+
+a {
+  color: rgb(36, 36, 36);
+}
+
+.break-letter {
+  word-break: break-all;
+}
+
+#card-testimonial {
+  display: flex;
+  overflow-x: auto;
+}

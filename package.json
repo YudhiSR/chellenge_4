@@ -1,0 +1,26 @@
+{
+  "name": "chellenge_4",
+  "version": "1.0.0",
+  "description": "Project HTTP Server dan DOM",
+  "main": "server/index.js",
+  "author": "Akbar Yudhi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node-dev --no-notify --respawn --transpile-only src/server/index.ts",
+    "clean": "rm -rf dist",
+    "build": "rm -rf ./dist && tsc",
+    "lint": "eslint . --ext .ts",
+    "format": "eslint . --ext .ts --fix",
+    "start": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
